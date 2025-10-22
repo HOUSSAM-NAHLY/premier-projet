@@ -1,0 +1,153 @@
+[
+    {
+        "nom": "houssam",
+        "adresse": "casablanca Ben msik",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": [
+            {
+                "produit": "Clavier Gamer",
+                "prix": 250,
+                "quantite": 1
+            },
+            {
+                "produit": "Souris Optique",
+                "prix": 150,
+                "quantite": 2
+            }
+        ],
+        "date": "2025-10-02 12:21:56"
+    },
+    {
+        "nom": "houssam",
+        "adresse": "casablanca Ben msik",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": [
+            {
+                "produit": "Clavier Gamer",
+                "prix": 250,
+                "quantite": 1
+            },
+            {
+                "produit": "Souris Optique",
+                "prix": 150,
+                "quantite": 2
+            }
+        ],
+        "date": "2025-10-09 10:53:51"
+    },
+    {
+        "nom": "houssam",
+        "adresse": "casablanca Ben msik",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": [
+            {
+                "produit": "Clavier Gamer",
+                "prix": 250,
+                "quantite": 1
+            },
+            {
+                "produit": "Souris Optique",
+                "prix": 150,
+                "quantite": 2
+            }
+        ],
+        "date": "2025-10-09 10:55:35"
+    },
+    {
+        "nom": "houssam",
+        "adresse": "casablanca Ben msik",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": [
+            {
+                "produit": "Clavier Gamer",
+                "prix": 250,
+                "quantite": 1
+            },
+            {
+                "produit": "Souris Optique",
+                "prix": 150,
+                "quantite": 2
+            }
+        ],
+        "date": "2025-10-09 11:51:09"
+    },
+    {
+        "nom": "HOUSSAM",
+        "adresse": "dxgv",
+        "telephone": "9895u9",
+        "paiement": "livraison",
+        "produits": [
+            {
+                "produit": "Clavier Gamer",
+                "prix": 250,
+                "quantite": 1
+            },
+            {
+                "produit": "Souris Optique",
+                "prix": 150,
+                "quantite": 2
+            }
+        ],
+        "date": "2025-10-09 12:12:46"
+    },
+    {
+        "nom": "hassan el badaoui",
+        "adresse": "casablaca-sidi-othmane",
+        "telephone": "065374854",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-09 13:23:13"
+    },
+    {
+        "nom": "hassan el badaoui",
+        "adresse": "casablaca-sidi-othmane",
+        "telephone": "065374854",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-09 13:23:41"
+    },
+    {
+        "nom": "hassan el badaoui",
+        "adresse": "casablaca-sidi-othmane",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-09 13:28:07"
+    },
+    {
+        "nom": "houssam",
+        "adresse": "casablaca-sidi-othmane",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-09 13:28:55"
+    },
+    {
+        "nom": "aya",
+        "adresse": "rabat",
+        "telephone": "0784636474",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-10 01:30:18"
+    },
+    {
+        "nom": "EN-NAHLY HOUSSAM",
+        "adresse": "Casablanca Ben msik ",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-10 01:40:15"
+    },
+    {
+        "nom": "HOUSSAM",
+        "adresse": "Casablanca Ben msik ",
+        "telephone": "0655625693",
+        "paiement": "livraison",
+        "produits": null,
+        "date": "2025-10-10 11:23:20"
+    }
+]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>InnovaTech - Panier</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; }
+    .container {
+      max-width: 700px;
+       margin: auto;
+        background: #fff;
+      padding: 30px;
+       border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .btn-blue {
+      background-color: #007bff;
+       color: white;
+       padding: 12px;
+      border: none;
+       cursor: pointer;
+        font-size: 18px;
+      border-radius: 8px;
+       transition: 0.3s;
+    }
+    .btn-blue:hover 
+    {
+       background-color: #0056b3; 
+      }
+    input, select {
+      width: 100%; padding: 10px; margin: 8px 0;
+      border: 1px solid #ccc; border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<section>
+  <div class="container">
+    <h2>Votre Panier</h2>
+    
+
+    <form method="POST" action="traitement_commande.php">
+      <label>Nom complet</label>
+      <input type="text" name="name" required>
+
+      <label>Adresse</label>
+      <input type="text" name="address" required>
+
+      <label>Téléphone</label>
+      <input type="tel" name="phone" required>
+
+      <label>Méthode de paiement</label>
+      <select name="payment" required>
+        <option value="livraison">Paiement à la livraison</option>
+        <option value="carte">Carte bancaire</option>
+      </select>
+
+      <input type="hidden" name="cart" id="cartInput">
+
+      <button type="submit" class="btn-blue">Valider la commande</button>
+    </form>
+  </div>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+body{
+    padding: 0%;
+    background-color: #1E90FF;
+    margin: 0%;
+}
+.accuiell{
+    font-size: 40px;
+    color:#1E90FF;
+    
+}
+.web-header{
+    background-color: #111;
+    position: sticky; top:0;
+    padding: 0px 30px;
+   margin: 0px;
+  
+   display: flex;   
+    /* logo ليسار و menu لليمين */
+    align-items: center;        /* يخليهم كلهم فـ نفس الخط */
+    
+   
+   
+     
+}
+.web-header a{
+    color: azure;
+    text-decoration: none;
+  
+  font-weight: 600;
+  transition: color .15s ease, transform .15s ease;
+  
+  
+    
+}
+.web-header a:hover {
+    color: #1E90FF; /* bleu technologique */
+}
+
+.connexion-btn{
+  background: #1E90FF;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(18, 11, 100, 0.3);
+}
+.connexion-btn::before {
+    content: icon;
+    font-size: 18px;
+}
+
+.connexion-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+    background: linear-gradient(135deg, white, white);
+}
+
+.connexion-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.3);
+}
+
+
+.web-ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.web-li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.web-header > div{
+    display: inline-block;
+}
+.web-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 40px);
+}
+
+.webbox{
+    padding:28px 0;
+   
+    
+ }
+ .web-box{
+    border: 0px solid;
+    border-radius: 16px;
+    padding: 18px 0;
+
+
+    
+ }
+ .web-h1{
+    font-size: 60px;
+    text-align: center;
+    padding-left: 3px;
+ }
+ .floating-img burger{
+    background-color: #FFC244;
+ }
+ .hero {
+  height: 100vh; /* تدي الشاشة كاملة */
+  background: url("C:\Users\hp\Downloads\proxy-image.jpeg") ;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.btn-hero {
+  background: #1E90FF;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-hero:hover {
+  background: #1E90FF;
+}
+
+/* Section Menu */
+.menu {
+  padding: 100px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.menu-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+
+.menu-item {
+
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .menu-item:hover {
+      transform: translateY(-5px);
+    }
+  
+
+.menu-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+button {
+      padding: 8px 15px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 6px;
+      background-color:#1E90FF;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+ 
+.cart {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cart h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+#cart-items li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cart-items li .remove {
+  background: #e63946;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#cart-items li .remove:hover {
+  background: #c1121f;
+}
+
+#cart-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+#checkout {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color:#1E90FF;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#checkout:hover {
+  background-color: #10b981;
+}

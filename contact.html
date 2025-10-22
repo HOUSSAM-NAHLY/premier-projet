@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - InnovaTech</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d47a1;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h3 {
+    margin-top: 15px;
+    color: #0d47a1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact-form button {
+    background: #0d47a1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #1565c0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #0d47a1;
+    color: white;
+}
+
+</style>
+<body>
+    <header>
+        <h1>InnovaTech</h1>
+        <p>Votre partenaire en matériel informatique</p>
+    </header>
+
+    <section class="contact-container">
+        <h2>Contactez-nous</h2>
+        <p>N’hésitez pas à nous écrire pour toute information ou assistance.</p>
+
+        <div class="contact-info">
+            <h3>📍 Adresse</h3>
+            <p>Casablanca, Maroc</p>
+
+            <h3>📞 Téléphone</h3>
+            <p>+212 6 55625693</p>
+
+            <h3>📧 Email</h3>
+            <p><a href="mailto:contact@innovatech.ma">contact@innovatech.ma</a></p>
+
+            <h3>🕒 Horaires</h3>
+            <p>Lundi - Vendredi : 9h00 - 18h00 <br>
+               Samedi : 9h00 - 13h00</p>
+        </div>
+
+        <form class="contact-form">
+            <h3>📩 Envoyez-nous un message</h3>
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message..." required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 InnovaTech - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
